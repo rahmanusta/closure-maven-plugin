@@ -83,7 +83,20 @@
         </plugins>
     </build>
 
+    <scm>
+        <connection>scm:git:https://github.com/rahmanusta/ember-maven-plugin.git</connection>
+        <developerConnection>scm:git:https://github.com/rahmanusta/ember-maven-plugin.git</developerConnection>
+        <url>https://github.com/rahmanusta/ember-maven-plugin</url>
+        <tag>HEAD</tag>
+    </scm>
 
+    <distributionManagement>
+        <repository>
+            <id>bintray-rahmanusta-maven-ember-maven-plugin</id>
+            <name>rahmanusta-maven-ember-maven-plugin</name>
+            <url>https://api.bintray.com/maven/rahmanusta/maven/ember-maven-plugin</url>
+        </repository>
+    </distributionManagement>
 
     <profiles>
         <profile>
