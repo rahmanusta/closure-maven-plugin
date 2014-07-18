@@ -5,7 +5,7 @@
 
     <groupId>com.kodcu</groupId>
     <artifactId>closure-maven-plugin</artifactId>
-    <version>1.0.1</version>
+    <version>1.0.2-SNAPSHOT</version>
 
     <dependencies>
         <dependency>
@@ -86,7 +86,7 @@
         <connection>scm:git:https://github.com/rahmanusta/closure-maven-plugin.git</connection>
         <developerConnection>scm:git:https://github.com/rahmanusta/closure-maven-plugin.git</developerConnection>
         <url>https://github.com/rahmanusta/closure-maven-plugin</url>
-        <tag>closure-maven-plugin-1.0.1</tag>
+        <tag>closure-maven-plugin-1.0.0</tag>
     </scm>
 
     <distributionManagement>
