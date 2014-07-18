@@ -1,4 +1,4 @@
-# Maven Plugin for Goole Closure Compiler
+# Maven Plugin for Google Closure Compiler
 
 Combines and compiles your JavaScript files with Google Closure Compiler
 
@@ -36,3 +36,5 @@ Combines and compiles your JavaScript files with Google Closure Compiler
 ## Requirements
 
 Needs Java 8+
+
+[![Analytics](https://ga-beacon.appspot.com/UA-52823012-1/closure-maven-plugin/readme)](https://github.com/rahmanusta/closure-maven-plugin)
