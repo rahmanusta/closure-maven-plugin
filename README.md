@@ -8,7 +8,7 @@ Combines and compiles your JavaScript files with Google Closure Compiler
 <plugin>
 <groupId>com.kodcu</groupId>
 <artifactId>closure-maven-plugin</artifactId>
-<version>1.0.1</version>
+<version>1.0.2</version>
 <configuration>
 	<inputPath>${basedir}/src/main/webapp/js/</inputPath>
 	<jss>
