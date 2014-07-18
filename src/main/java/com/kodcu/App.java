@@ -7,6 +7,7 @@ import com.google.javascript.jscomp.SourceFile;
 import org.apache.maven.plugin.AbstractMojo;
 import org.apache.maven.plugin.MojoExecutionException;
 import org.apache.maven.plugin.MojoFailureException;
+import org.apache.maven.plugins.annotations.LifecyclePhase;
 import org.apache.maven.plugins.annotations.Mojo;
 import org.apache.maven.plugins.annotations.Parameter;
 
@@ -26,7 +27,7 @@ import java.util.List;
 /**
  * Created by usta on 15.07.2014.
  */
-@Mojo(name = "precompile")
+@Mojo(name = "precompile",defaultPhase = LifecyclePhase.PROCESS_RESOURCES)
 public class App extends AbstractMojo {
 
 
