@@ -8,7 +8,7 @@ Combines and compiles your JavaScript files with Google Closure Compiler
 <plugin>
 <groupId>com.kodcu</groupId>
 <artifactId>closure-maven-plugin</artifactId>
-<version>1.0.2</version>
+<version>1.0.3</version>
 <configuration>
 	<inputPath>${basedir}/src/main/webapp/js/</inputPath>
 	<jss>
@@ -22,17 +22,6 @@ Combines and compiles your JavaScript files with Google Closure Compiler
 </plugin>
 ```
 
-## Repository
-
-```xml
-<pluginRepositories>
-    <pluginRepository>
-        <id>bintray-central</id>
-        <name>bintray</name>
-        <url>http://dl.bintray.com/rahmanusta/maven</url>
-    </pluginRepository>
-</pluginRepositories>
-```
 ## Requirements
 
 Needs Java 8+
