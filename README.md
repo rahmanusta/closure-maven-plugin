@@ -19,6 +19,14 @@ Combines and compiles your JavaScript files with Google Closure Compiler
 	</jss>
 	<outputPath>${basedir}/src/main/webapp/js/script.min.js</outputPath>
 </configuration>
+<executions>
+	<execution>
+		<goals>
+		    <goal>precompile</goal>
+		</goals>
+	<phase>process-resources</phase>
+	</execution>
+</executions>
 </plugin>
 ```
 
